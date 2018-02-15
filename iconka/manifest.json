@@ -2,7 +2,7 @@
   "name": "Rustam papp",
   "short_name": "Rpapp",
   "lang": "ru-RU",
-  "start_url": "10.32.0.44/index.html",
+  "start_url": "https://goba2000.github.io/rpapp/index.html",
   "display": "standalone",
   "icons": [
     {
