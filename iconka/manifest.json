@@ -1,0 +1,19 @@
+{
+  "name": "Rustam papp",
+  "short_name": "Rpapp",
+  "lang": "ru-RU",
+  "start_url": "10.32.0.44/index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/iconka/android-icon-192x192.png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "rpapp",
+      "id": "rpapp.atel76.ru",
+      "url": "https://play.google.com/store/apps/details?id=com.playkot.supercity"
+    }
+  ]
+}
