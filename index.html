@@ -1,10 +1,10 @@
-<HTML>
-<HEAD>
-<title>Progressive Web Apps for Rustam v.1.0</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
 
- 
 <link rel="apple-touch-icon" sizes="57x57" href="iconka/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="iconka/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="iconka/apple-icon-72x72.png">
@@ -18,41 +18,31 @@
 <link rel="icon" type="image/png" sizes="32x32" href="iconka/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="iconka/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="iconka/favicon-16x16.png">
-
-
-
-<meta name="msapplication-TileImage" content="iconka/ms-icon-144x144.png">
-<meta name="theme-color" content="#f00fff">
 <link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#f22fff">
-
-
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="Rpapp">
-<meta name="apple-mobile-web-app-title" content="Rpapp">
-<meta name="msapplication-starturl" content="/">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<meta name="msapplication-TileColor" content="#E6E6FA">
+<meta name="msapplication-TileImage" content="iconka/ms-icon-144x144.png">
+<meta name="theme-color" content="#E6E6FA">
 
 <script>
-if (‘serviceWorker’ in navigator) {
- window.addEventListener(‘load’, function() {  
-  navigator.serviceWorker.register(‘/sw.js’).then(
-    function(registration) {
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
       // Registration was successful
-      console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
-    function(err) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
       // registration failed :(
-      console.log(‘ServiceWorker registration failed: ‘, err);
+      console.log('ServiceWorker registration failed: ', err);
     });
   });
 }
 </script>
 
+  <title>Web Community Leads</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://use.fontawesome.com/4ca20d00e4.js"></script>
+</head>
 
-</HEAD>
 <BODY>
 
 <p>
