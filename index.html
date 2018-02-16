@@ -23,7 +23,7 @@
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('https://goba2000.github.io/rpapp/sw.js').then(function(registration) {
+    navigator.serviceWorker.register('/rpapp/sw.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
@@ -54,7 +54,7 @@ if ('serviceWorker' in navigator) {
 <a><img alt="goba" title="Progressive Web Apps for Rustam" src="index_files/goba.png"></a>
 <br />
 <br />
-<font color="green">
+<font color="red">
 <a href="https://github.com/goba2000/rpapp">Code on GitHub</a>
 </font> 
 <br />
