@@ -21,7 +21,7 @@
 <meta name="msapplication-TileImage" content="iconka/ms-icon-144x144.png">
 <meta name="theme-color" content="#E6E6FA">
 <script>
-if ('serviceWorker' in navigator) {
+
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/rpapp/sw.js').then(function(registration) {
       // Registration was successful
@@ -31,7 +31,7 @@ if ('serviceWorker' in navigator) {
       console.log('ServiceWorker registration failed: ', err);
     });
   });
-}
+
 </script> 
 <title>Progressive Web Apps for Rustam v.1.0</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
@@ -60,7 +60,7 @@ if ('serviceWorker' in navigator) {
 <br />
 <br />
 <br />
-<font color="red">  
+<font color="green">  
 Внимание, все права защищены! 
 </font> 
 <br />
