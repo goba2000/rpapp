@@ -22,6 +22,10 @@
 <meta name="msapplication-TileImage" content="/rpapp/iconka/ms-icon-144x144.png">
 <meta name="theme-color" content="#E6E6FA">
 <script>
+  
+var button = document.createElement("button");
+button.innerHTML = "add";
+  
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/rpapp/sw.js').then(function(registration) {
@@ -33,11 +37,6 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
- 
-  
- // 1. Create the button
-var button = document.createElement("button");
-button.innerHTML = "add";
 
 </script> 
 <title>Progressive Web Apps for Rustam v.1.0</title>
