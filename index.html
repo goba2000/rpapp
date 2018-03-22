@@ -86,7 +86,24 @@ window.addEventListener('beforeinstallprompt', function(e) {
   return false;
 });
 
-button.addEventListener('click', function() {
+
+  </script>
+<title>Progressive Web Apps for Rustam v.1.0</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<script src="https://use.fontawesome.com/4ca20d00e4.js"></script>
+</head>
+<body>
+  <script>
+  
+
+var button = document.createElement("button");
+button.innerHTML = "add";
+button.className = "butt5";
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+    
+ button.addEventListener('click', function() {
   if(deferredPrompt !== undefined) {
     // The user has had a positive interaction with our app and Chrome
     // has tried to prompt previously, so let's show the prompt.
@@ -110,12 +127,8 @@ button.addEventListener('click', function() {
   }
 });
 
-  </script>
-<title>Progressive Web Apps for Rustam v.1.0</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-<script src="https://use.fontawesome.com/4ca20d00e4.js"></script>
-</head>
-<body>
+    
+     </script>
 <p>
 <h1>Progressive Web Apps for Rustam v.1.02</h1>
 <br />
