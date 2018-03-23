@@ -60,7 +60,7 @@ button.className = "butt5";
 var body = document.getElementsByTagName("body")[0];
 body.appendChild(button);
    
-window.addEventListener('beforeinstallprompt', function(e) {
+button.addEventListener('click', function(e) {
   // beforeinstallprompt Event fired
 
   // e.userChoice will return a Promise.
