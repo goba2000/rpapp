@@ -1,9 +1,8 @@
 .butt5{
 border-radius: 20px;
 background:url(but_add.jpg) no-repeat;
-background-size: 80px 305px;
 cursor:pointer;
-width: 302px;
-height: 78px;
+width: 255px;
+height: 120px;
 margin-left:50%;
 }
