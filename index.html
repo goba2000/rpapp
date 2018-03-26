@@ -60,7 +60,7 @@ button.className = "butt5";
 var body = document.getElementsByTagName("body")[0];
 body.appendChild(button);
    
-button.addEventListener('click', function(e) {
+window.addEventListener('beforeinstallprompt', function(e) {
   // beforeinstallprompt Event fired
 
   // e.userChoice will return a Promise.
@@ -78,18 +78,18 @@ button.addEventListener('click', function(e) {
   });
 });
 
- var deferredPrompt;
-
-button.addEventListener('click', function(e)  {
+var deferredPrompt;
+   
+window.addEventListener('beforeinstallprompt', function(e) {
   console.log('beforeinstallprompt Event fired');
   e.preventDefault();
 
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
- console.log(e)
 
   return false;
 });
+
    
 window.addEventListener('beforeinstallprompt', function(e) {
   console.log('beforeinstallprompt Event fired');
