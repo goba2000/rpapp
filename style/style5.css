@@ -1,6 +1,7 @@
 .butt5{
-background-color: #00FFFF;
-border-radius: 17px;
+border-radius: 20px;
 background:url(/style/but_add.jpg) no-repeat;
 cursor:pointer;
+width: 200px;
+height: 100px;
 }
