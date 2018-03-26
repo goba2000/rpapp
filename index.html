@@ -82,14 +82,10 @@ var deferredPrompt;
    
 window.addEventListener('beforeinstallprompt', function(e) {
   console.log('beforeinstallprompt Event fired');
- alert('beforeinstallprompt Event fired');
   e.preventDefault();
-
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-
   return false;
 });
+
 
 
 
