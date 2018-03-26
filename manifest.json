@@ -39,9 +39,9 @@
    "density": "2.0"
   },
   {
-   "src": "\/rpapp/iconka/android-icon-144x144.png",
+   "src": "/rpapp/iconka/android-icon-144x144.png",
    "sizes": "144x144",
-   "type": "image\/png",
+   "type": "image/png",
    "density": "3.0"
   },
   {
