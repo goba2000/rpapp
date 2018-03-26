@@ -99,7 +99,7 @@ window.addEventListener('beforeinstallprompt', function(e) {
 
 
 button.addEventListener('click', function() {
-   deferredPrompt = undefined;
+        alert("Click!!!");
   if(deferredPrompt !== undefined) {
     // The user has had a positive interaction with our app and Chrome
     // has tried to prompt previously, so let's show the prompt.
@@ -118,7 +118,6 @@ button.addEventListener('click', function() {
       else {
         console.log('User added to home screen');
       }
-      alert("Click!!!");
       // We no longer need the prompt.  Clear it up.
       deferredPrompt = null;
     });
