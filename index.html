@@ -99,10 +99,12 @@ window.addEventListener('beforeinstallprompt', function(e) {
 
 
 button.addEventListener('click', function() {
-  alert("Click!!!");
+
   if(deferredPrompt !== undefined) {
     // The user has had a positive interaction with our app and Chrome
     // has tried to prompt previously, so let's show the prompt.
+    alert("Click!!!");
+   
     deferredPrompt.prompt();
 
     // Follow what the user has done with the prompt.
